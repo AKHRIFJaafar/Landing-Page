@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Nike Slider</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <!-- NAV -->
+      <nav class="nav container">
+        <div class="logo">
+          <a href="">
+            <img  src="./icons/logo.png" alt="logo" width="70px" height="70px" /></a>
+        </div>
+
+       
+      </nav>
+      <!-- END OF NAV -->
+    </header>
+    <!-- MAIN -->
+    <main class="main container">
+      <div class="row">
+        <!-- NIKE SHOE -->
+        <div class="shoe">
+          <div class="shoe-figure"></div>
+
+          <div>
+            <img class="shoe-img" src="./images/pic1.png" alt="" /> 
+           <!-- <img class="shoe-img" src="./images/pic2.png" alt="" /> -->
+          </div>
+
+          <div class="dots">
+            <span class="dot dot-color-1 active"></span>
+            <span class="dot dot-color-2"></span>
+          </div>
+        </div>
+
+        <div class="info">
+          <!-- INFORMATION -->
+          <div class="shoe-info">
+            <span class="info-subtitle">Beda Sport</span>
+            <h1 class="info-title">New Collection</h1>
+            <p class="info-description">
+                   15 - 02 - 2021    &nbsp; &nbsp; &nbsp; &nbsp; => &nbsp; &nbsp; &nbsp; &nbsp;    Stay Tunned!!</p>
+          </div>
+
+          <div class="info-down">
+            <!-- SIZE -->
+            <div class="size">
+              <h3 class="size-title">Size</h3>
+              <div class="size-content">
+                <span class="size-total active">8.6</span>
+                <span class="size-total">9</span>
+                <span class="size-total">9.5</span>
+              </div>
+            </div>
+
+            <!-- COUNT -->
+            <div class="count">
+              <h3 class="count-title">Count</h3>
+              <div class="count-content">
+                <span>-</span>
+                <span>1</span>
+                <span>+</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRICE -->
+          <div class="price">
+            <span class="price-title">999,99MAD</span>
+            <a href="https://www.nike.com/ma/en/" class="price-button">PRE ORDER</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Custom Script -->
+    <script src="index.js"></script>
+  </body>
+</html>
